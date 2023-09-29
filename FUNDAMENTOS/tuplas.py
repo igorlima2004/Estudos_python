@@ -1,4 +1,4 @@
-#Tuplas
+#Tuplas(Imutáveis)
 
 
 #tupla = tuple()
@@ -10,5 +10,6 @@ print(tupla[0:2])
 print(tupla[::-1])
 
 print(len(tupla))
-print(tupla.index)
+print(tupla.index("Pedro"))
+print(tupla.count("Pedro"))
 
